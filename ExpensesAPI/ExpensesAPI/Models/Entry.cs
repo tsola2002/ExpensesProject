@@ -7,9 +7,9 @@ namespace ExpensesAPI.Models
 {
     public class Entry
     {
-        public string description { get; set; }
+        public string Description { get; set; }
         public bool IsExpense { get; set; }
 
-        public double price { get; set; }
+        public double Value { get; set; }
     }
 }
