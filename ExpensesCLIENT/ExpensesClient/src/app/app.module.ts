@@ -6,6 +6,11 @@ import { EntriesComponent } from './entries/entries.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
+
+//Services
+import { EntryService } from './entry.service';
+import { from } from 'rxjs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +21,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [EntryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
