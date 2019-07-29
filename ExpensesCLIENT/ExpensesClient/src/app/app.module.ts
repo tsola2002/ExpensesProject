@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 //Services
 import { EntryService } from './entry.service';
 import { from } from 'rxjs';
+import { AppRouterModule } from './app-router.module';
 
 @NgModule({
   declarations: [
@@ -19,9 +20,12 @@ import { from } from 'rxjs';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouterModule
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }
