@@ -13,6 +13,10 @@ import { from } from 'rxjs';
 import { AppRouterModule } from './app-router.module';
 import { HttpClientModule } from '@angular/common/http';
 
+//Material Design
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule, MatInputModule, MatCardModule, MatSelectModule, MatTableModule, MatToolbarModule} from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +27,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRouterModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule, MatButtonModule, MatTableModule,
+    MatInputModule, MatCardModule, MatSelectModule, MatToolbarModule
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
