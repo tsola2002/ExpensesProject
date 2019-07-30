@@ -77,3 +77,6 @@ C:\ExpensesProject\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.dll
 C:\ExpensesProject\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.pdb
 C:\ExpensesProject\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.Initial.resources
 C:\ExpensesProject\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.GenerateResource.Cache
+C:\ExpensesProject\ExpensesAPI\ExpensesAPI\bin\System.Web.Cors.dll
+C:\ExpensesProject\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.dll
+C:\ExpensesProject\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.xml

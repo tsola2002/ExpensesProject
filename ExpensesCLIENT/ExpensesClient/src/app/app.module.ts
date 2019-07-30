@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { EntryService } from './entry.service';
 import { from } from 'rxjs';
 import { AppRouterModule } from './app-router.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AppRouterModule } from './app-router.module';
   ],
   imports: [
     BrowserModule,
-    AppRouterModule
+    AppRouterModule,
+    HttpClientModule
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
