@@ -13,23 +13,29 @@ import { from } from 'rxjs';
 import { AppRouterModule } from './app-router.module';
 import { HttpClientModule } from '@angular/common/http';
 
+//forms
+import { ReactiveFormsModule } from '@angular/forms';
+
 //Material Design
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatInputModule, MatCardModule, MatSelectModule, MatTableModule, MatToolbarModule} from '@angular/material';
+import { NewEntryComponent } from './new-entry/new-entry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntriesComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NewEntryComponent
   ],
   imports: [
     BrowserModule,
     AppRouterModule,
     HttpClientModule,
     BrowserAnimationsModule, MatButtonModule, MatTableModule,
-    MatInputModule, MatCardModule, MatSelectModule, MatToolbarModule
+    MatInputModule, MatCardModule, MatSelectModule, ReactiveFormsModule, MatToolbarModule
+    
   ],
   providers: [EntryService],
   bootstrap: [AppComponent]
