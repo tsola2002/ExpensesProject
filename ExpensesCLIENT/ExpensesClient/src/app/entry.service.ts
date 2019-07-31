@@ -14,4 +14,10 @@ export class EntryService {
     return this.http.get(this.baseUrl);  
   }
 
+  //post methods takes in entry as a parameter
+  createEntry(entry){
+    //sending a post request to our backend
+    return this.http.post(this.baseUrl, entry)
+  }  
+
 }
